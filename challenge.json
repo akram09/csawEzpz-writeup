@@ -1,0 +1,8 @@
+{
+    "name":"ezpz" , 
+    "files":["challenge.py"] , 
+    "flag":"flag{3cC_m0r3_lik3-EzPz}",
+    "description":"Crypto is hard :(\n\n(wrap the flag in flag{...})\n`nc {{.Netloc}} {{.DescPort}}`\n\nAuthor: negasora" , 
+    "category":"crypto", 
+    "points": 400 
+}
