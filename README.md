@@ -4,7 +4,7 @@ In this challenge you are given a network socket connection and the script [chal
 
 ## Explanation 
 
-The main purpose in this challenge is to understand what the given script is doing , so when first  reading the script i saw that it is using the Elliptic Curve encryption with the help of the Sage Math library :jack_o_lantern:  .so if you are new to the elliptic curve signature here is a great tutorials that helped me :  [hackernoon post]( https://hackernoon.com/what-is-the-math-behind-elliptic-curve-cryptography-f61b25253da3 )  [awesome meduim post ]( https://blog.goodaudience.com/very-basic-elliptic-curve-cryptography-16c4f6c349ed?gi=6bedbba6cb94 ) , and if you are not comfortable with the sage Math library then check out its [documentation]( http://doc.sagemath.org/ ) .
+The main purpose in this challenge is to understand what the given script is doing , so when first  reading the script i saw that it is using the Elliptic Curve encryption with the help of the Sage Math library :jack_o_lantern:  .so if you are new to the elliptic curve signature here is a great tutorials that helped me :  [hackernoon post]( https://hackernoon.com/what-is-the-math-behind-elliptic-curve-cryptography-f61b25253da3 )  ,  [awesome meduim post ]( https://blog.goodaudience.com/very-basic-elliptic-curve-cryptography-16c4f6c349ed?gi=6bedbba6cb94 ) , and if you are not comfortable with the sage Math library then check out its [documentation]( http://doc.sagemath.org/ ) .
 
 So the script is declaring a certain class named `Magic ` that contains a constructor method and 3 other methods : flag , encrypt and sign we will be explaining each method : 
 
